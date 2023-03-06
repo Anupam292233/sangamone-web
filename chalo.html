@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chalo App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <style type="text/css">
+        .header{
+             display: flex;
+            flex-wrap: wrap;
+            position: fixed;
+        }
+        .menu{
+            margin-left: 100px;
+            margin-top: 20px;
+            font-size: 20px;
+        }
+        .title{
+            margin-left: 10px;
+            font-size: 50px;
+        }
+        #download-btn{
+                border-radius: 2rem; 
+    background-color: orange;
+    padding: 0.55rem;
+    border: 1px solid orange;
+        }
+        img{
+            border-radius: 50%;
+            width: 100px;
+        }
+
+        #hero_img {
+
+            width:100%;
+        }
+        .col1{
+            margin-top: 125px;
+        }
+
+          #download-btn1{
+                border-radius: 1rem;
+    background-color: orange;
+    padding: 0.5rem 0rem;
+    width: 55%;
+    border: 0.5px solid orange;
+    text-decoration: none;
+    color: #ffff;
+        }
+        #trychalo {
+                text-align: left;
+    color: orange;
+    padding: 0.5rem;
+    margin: auto;
+        font-size: 18px;
+    font-weight: 500;
+
+        }
+        #download {
+            display: flex;
+            text-align: center;
+            padding: 0rem 1rem 0rem 5rem;
+        }
+        #chalo-par {
+                text-align: left;
+    font-size: 16px;
+    padding: 1rem 4rem;
+        }
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">CHALO BUS</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Chalo App</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">CHalo Card</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Mobile Pass</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Mobile Ticket</a>
+        </li><li class="nav-item">
+          <a class="nav-link active" href="#">Try Chalo</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" id="download-btn" href="#">Download App</a>
+        </li>
+      
+        
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+      <img id="hero_img" src="mock.png" alt="Girl in a jacket">
+    </div>
+    <div class="col">
+      <div class="col1"><h4>The New Way Of Bus Travel</h4>
+      <div><h1>In Your City</h1>
+      <p id="chalo-par" >Chalo is India’s #1 bus transport technology company. Live track your bus on the Chalo App and get digital bus tickets on the Chalo Card. Your one stop solution for a convenient and hassle-free travel experience.</p>
+    </div>
+    <div class='row'>
+         <div class="col" id="download">
+          <a class="nav-link active" id="download-btn1" href="#">Download App</a>
+           <a class="nav-link active" id="trychalo" href="#">Try Chalo</a>
+        </div>
+        <div class="col">
+         
+        </div>
+    </div>
+    
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    
+    <div class="col-sm" style="margin-top: 100px;">
+        <h3>Making Bus Travel Better</h3>
+      <h3 style="color:orange ;"><b>Chalo Products</b></h3>
+    </div>
+    <div class="col-sm">
+      <img  src="page-card.png" style="border-radius: 40%; width: 400px;">
+    </div>
+    <div class="col-sm" style="margin-top: 100px">
+     <b> Chalo Cards</b>
+      <div>Travel safer with the tap-to-pay contactless Chalo Card. Store your bus tickets, bus pass and Chalo Super Saver plans on your Chalo Card and pay conveniently for your bus travel.<br>
+      <label for="checkbox" style="color:orange;"><u>Read More</u></label>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="nav nav-pills flex-column flex-sm-row">
+  <a class="flex-sm-fill text-sm-center nav-link active" href="#">Chalo Cards</a>
+  <a class="flex-sm-fill text-sm-center nav-link" href="#">Mobile Bus Pass</a>
+  <a class="flex-sm-fill text-sm-center nav-link" href="#"> Mobile Tickets</a>
+    <a class="flex-sm-fill text-sm-center nav-link" href="#">Super Saver</a>
+</nav>
+
+<div>
+    <h5 style="margin-top:5%">22 Cities And Counting</h5>
+<h3 style="font-size: 35px;"><b style="color:orange;">Chalo Cities</b></h3>
+<p style="scroll-margin-padding:10px ;">Redefining the bus travel experience through technology.</p>
+</div>
+
+<div>
+    <img src="agra.png" class="rounded-circle" alt="Agra">
+    Agra
+<img src="belgaum.png" class="rounded-circle" alt="Belgaum">
+<img src="bhopal.png" class="rounded-circle" alt="Bhopal">
+<img src="bhubaneswar.png" class="rounded-circle" alt="Bhubaneswar">
+<img src="chennai.png" class="rounded-circle" alt="Chennai">
+<img src="guwahati.png" class="rounded-circle" alt="Guwahati">
+
+</div>
+
+<div>
+    <img src="hubli.png" class="rounded-circle" alt="Hubli">
+<img src="indore.png" class="rounded-circle" alt="Indore">
+<img src="jabalpur.png" class="rounded-circle" alt="jabalpur">
+<img src="kanpur.png" class="rounded-circle" alt="Kanpur">
+<img src="kasaragod.png" class="rounded-circle" alt="kasaragod">
+<img src="kochi.png" class="rounded-circle" alt="kochi">
+
+</div>
+
+<div>
+    <img src="kottayam.png" class="rounded-circle" alt="kottayam">
+<img src="lucknow.png" class="rounded-circle" alt="lucknow">
+<img src="mangaluru.png" class="rounded-circle" alt="mangaluru">
+<img src="mathura.png" class="rounded-circle" alt="mathura">
+<img src="meerut.png" class="rounded-circle" alt="meerut">
+<img src="metromanila.png" class="rounded-circle" alt="metromanila">
+
+</div>
+
+<div>
+    <img src="mumbai.png" class="rounded-circle" alt="mumbai">
+<img src="nagpur.png" class="rounded-circle" alt="nagpur">
+<img src="patna.png" class="rounded-circle" alt="patna">
+<img src="prayagraj.png" class="rounded-circle" alt="prayagraj ">
+<img src="udupi.png" class="rounded-circle" alt="udupi">
+<img src="vijayawada.png" class="rounded-circle" alt="vijayawada">
+
+</div>
+
+<div>
+    <img src="wayanad.png" class="rounded-circle" alt="wayanad">Wayanad
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
